@@ -1,0 +1,40 @@
+/*h1{
+    color: red;
+}*/
+
+/* classlardi . bilan chaqiramiz*/
+.Hello{
+    color: yellow;
+}
+
+/*
+Colosrs in css
+-HEX
+-RGB
+-RGBA
+-HLS
+-colors names in English
+*/
+
+/* Idlar # bilan chaqiriladi*/
+#name{
+background-color: #000;
+color: white;
+text-align: center;
+}
+
+.Paragraph{
+    background-color: rgba(84, 196, 248, 0.982);
+    color: white;
+    text-align: center;
+    /* border:3px solid red; */
+    border-left: 5px solid blue;
+    padding: 30px;
+    /* margin: 10px 40px 20px 30px; */
+    margin: 20px 50px;
+    /* margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px; */
+
+}   
