@@ -1,0 +1,42 @@
+.box{
+    background-color: orange;
+    font-size: 30px;
+    padding: 20px;
+    /* max-width: 400px;
+    min-width: 300px;
+    max-height: 400px;
+    min-height: 300px; */
+    /* width: 500px; */
+    color: white;
+    font-family: sans-serif;
+    
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.text{
+    text-align: center;
+    
+}
+
+#name{
+    border: none;
+    outline: none;
+    padding: 20px;
+    /* border: 6px solid red; */
+    border-radius: 15px;
+    
+}
+
+.tag{
+    text-decoration: line-through;
+    color: red;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
