@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+ /* .brands{
+    display:inline-block; 
+} */
+
+/* img{
+    display: block;
+} */ 
+
+body{
+    height: 4000px;
+}
+
+/* .fixed{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+} */
+
+.button{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    margin: 20px;
+    position: relative;
+} 
+
+ .notification{
+    background-color: red;
+    padding: 5px;
+    border-radius:50% ;
+    font-size: 10px;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+
+} 
+
+/* p{
+    height: 200px;
+    width: 500px;
+    border: 1px solid red;
+    background-color: black;
+    color: white;
+    overflow: auto;
+} */
+
+/* .box .name, p{
+    color: red;
+}
+
+.name{
+    color: purple;  
+} */
+/* 
+.btn{
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius:5px;
+    transition: all 0.3s ease-in;
+    /* opacity: 0;
+} */
+
+/* .btn:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+
+} */
+
+.box{
+    width: 100%;
+    height: 600px;
+    background-image: url('./images/pexels-ethan-brooke-12641743.jpg');
+    background-color: white;
+    background-size: cover;
+    /* background-repeat: no repeat; */
+    background-position: center;
+    position: relative;
+}
+
+.box::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.57);
+}
