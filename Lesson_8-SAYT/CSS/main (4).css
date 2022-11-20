@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1756px;
+    margin: 0 auto;
+
+}
+/* Navber */
+
+#navbar{
+    padding: 55px 0;
+    background-color: rgb(6, 32, 73);
+}
+.nav_flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logoContainer{
+    height: 100%;
+    width: 47%;
+}
+
+.navList{
+    width: 47%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+}
+
+
+.navList .navList-item a{
+    text-decoration: none;
+    /* color: #262626; */
+    color: white;
+    font-size: 24px;
+    font-weight: 100;
+}
+
+@media (max-width: 767px){
+    #navbar{
+        padding: 20px 0;
+        background-color: transparent;
+    }
+    .navList .navList-item a{
+        color: black;
+    }
+
+
+.nav_flex, .navList{
+    flex-direction: column;
+}
+.navList{
+    margin-top: 20px;
+}
+}
+
+
+/* End of Navber */
+
+/* Hero section*/
+#hero-section{
+    height: 830px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.hero-section-img{
+    width: 47%;
+}
+
+.hero-section-content{
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.hero-section-content h1{
+    font-size: 88px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.hero-section-content h3{
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.hero-section-content p{
+    font-size: 24px;
+}
+
+.btn{
+    background-color: red;
+    padding: 12px 28px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    text-decoration: none;
+    gap: 20px;
+}
+
+.btn span{
+    font-size: 20px;
+    color: white;
+}
+
+.btn img{
+    border: 1px solid white;
+    padding: 10px;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+@media (max-width: 767px){
+    #hero-section{
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .hero-section-img, .hero-section-content{
+        width: 100%;
+    }
+
+    .hero-section-content{
+        align-items: center;
+    }
+
+    .hero-section-content h1{
+        font-size: 46px;
+        text-align: center;
+    }
+
+    .hero-section-content h3{
+        font-size: 34px;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .hero-section-content p{
+        font-size: 20px;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 20px ;
+    }
+}
+
+/* End of Hero section */
