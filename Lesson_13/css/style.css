@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.youtube_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box{
+    width: 30%;
+}
