@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.img_card{
+    max-width: 400px;
+}
+
+.img_card__button{
+    padding: 5px 15px;
+    font-size: 22px;
+    border: none;
+    border: 1px solid red;
+    background-color: transparent;
+}
