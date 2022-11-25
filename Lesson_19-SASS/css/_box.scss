@@ -1,0 +1,29 @@
+@mixin mainHEader {
+    // font-size: 36px;
+    color: $mainBgcolor;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+
+
+.box{
+    padding: 30px 10px;
+    transition: all 0.3s ease-in;
+
+    h1{
+        @include mainHEader;
+    }
+
+    &:hover{
+        background: {
+            color: black;
+            size: cover;
+            position: bottom;
+        }
+        color: white;
+        cursor: pointer;
+        font-size: 30px;
+    }
+}

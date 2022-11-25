@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  bottom: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 3000px;
+}
+
+.container {
+  max-width: 3000px;
+}
+
+.box {
+  padding: 30px 10px;
+  transition: all 0.3s ease-in;
+}
+.box h1 {
+  color: "black";
+  font-family: "Courier New", Courier, monospace;
+}
+.box:hover {
+  background-color: black;
+  background-size: cover;
+  background-position: bottom;
+  color: white;
+  cursor: pointer;
+  font-size: 30px;
+}/*# sourceMappingURL=main.css.map */
