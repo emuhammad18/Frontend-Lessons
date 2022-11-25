@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.row{
+    height: 100%;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.row>*{
+    padding: 0;
+}

@@ -1,0 +1,47 @@
+#menu{
+    padding: 75px 0;
+    background-color: #1C1C1C;
+
+    .container{
+        .row{
+            .card{
+                margin-top: 40px;
+                color: $white;
+                background-color: #312F30;
+                border: none;
+                border-radius: 10px;
+                max-width: 262px;
+                min-height: 323px;
+
+                .card-img-top{
+                border-radius: 10px 10px 0px 0px;
+                }
+
+                .card-body{
+                    padding: 28px 25px;
+                }
+             }
+        }
+    }
+}
+
+@media (max-width:767px) {
+    #menu{
+        .container{
+            .row{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                gap: 30px;
+            }
+        }
+    }
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+    #menu{
+        .row{
+            justify-content: space-evenly !important;
+        }
+    }
+}
