@@ -1,0 +1,35 @@
+#hero_section {
+    height: 886px;
+    background-image: url('../images/hero\ background.png');
+    background-size: cover;
+    background-position: bottom;
+    color: $white;
+
+    .hero_section--content {
+        h6 {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            letter-spacing: 0.1em;
+            color: #FFFFFF;
+        }
+
+        h1{
+            @include mainHeading;
+        }
+
+        p{
+            @include mainParagraph;
+            margin-top: 37px;
+            margin-bottom: 42px;
+            width: 90%;
+        }
+    }
+
+}
+
+@media (max-width:767px) {
+    #hero_section{
+        padding-top: 320px;
+    }
+}

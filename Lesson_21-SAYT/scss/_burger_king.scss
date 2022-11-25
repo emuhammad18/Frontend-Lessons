@@ -1,0 +1,25 @@
+#burger_king {
+    padding: 80px 0;
+    background-color: #312F30;
+    color: $white;
+
+    .row {
+        h3 {
+
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            .old_price {
+                color: $orange;
+                opacity: 0.5;
+                text-decoration: line-through;
+                font-size: 20px;
+            }
+
+            .new_price {
+                color: $orange;
+            }
+        }
+    }
+}
