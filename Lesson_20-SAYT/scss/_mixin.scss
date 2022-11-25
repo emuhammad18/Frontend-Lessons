@@ -1,0 +1,54 @@
+$smallText: 16px;
+$white: #fff;
+$orange:#F6762C;
+
+@mixin navLink {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: $white;
+    opacity: 0.7;
+
+    &:hover{
+        font-style: normal;
+        font-weight: 700;
+        color: red;
+        opacity: 1;
+    }
+    
+}
+
+
+@mixin mainHeading {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 57.33px;
+    color: $white;
+}
+
+@mixin mainParagraph {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: $white;
+    opacity: 0.7;
+}
+
+@mixin secondaryParagraph {
+    @include mainParagraph;
+    font-size: $smallText;
+}
+
+@mixin primaryButton {
+    border: none;
+    outline: none;
+    padding: 15px 37px;
+    color: $white;
+    font-weight: 500;
+    font-size: $smallText;
+    background-color:$orange ;
+    border-radius: 5px;
+    border: 1px solid $orange;
+    transition: all 0.3s ease-in;
+}

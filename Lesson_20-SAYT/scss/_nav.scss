@@ -1,0 +1,72 @@
+#navbar{
+    padding: 25px 0;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    .nav_wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .nav_list{
+            list-style: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 25px ;
+            margin-bottom: 0;
+
+            .nav_list-item a{
+                text-decoration: none;
+                @include navLink;
+            }
+        }
+    }
+}
+
+.order_btn{
+    @include primaryButton;
+
+    &:hover{
+        background-color: transparent;
+        color: $orange;
+    }
+}
+
+.nav_list-item a.active{
+    opacity: 1 !important;
+}
+
+@media (max-width:767px) {
+    .nav_wrapper{
+        flex-wrap: wrap;
+        justify-content: space-evenly !important;
+
+        .nav_list{
+            flex-direction: column;
+            order: 3;
+            width: 100%;
+            margin-top: 20px !important;
+        }
+
+        .order{
+            order: 2;
+        }
+    }
+
+    .order_btn{
+        height: auto;
+        padding: 10px 27px !important;
+        padding-bottom: 100px;
+
+        .hero_section--content{
+            text-align: center;
+            p{
+                width: 100%;
+            }
+        }
+        
+    }
+}
