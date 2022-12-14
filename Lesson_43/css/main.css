@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+#menu{
+    font-size: 30px;
+    border: none;
+    background-color: transparent;
+    color: #000;
+}
+
+#form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+    gap: 30px;
+}
+
+#name-input{
+    font-size: 30px;
+}
+
+#submitBtn{
+    font-size: 30px;
+}
+
+#history-list{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400px;
+    height: 100vh;
+    border: 3px solid black;
+    transform: translateX(-100%);
+    transition: all 0.5s ease-in;
+}
+
+#history-list li{
+    padding: 40px 0;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #888;
+}
+
+#history-list li:nth-child(odd){
+    background-color: #444;
+}
+
+#gender{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#gender h2{
+    font-size: 50px ;
+}
+
+#gender h3{
+    font-size: 40px ;
+}
